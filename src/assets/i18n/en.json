@@ -1,0 +1,138 @@
+{
+  "blog": {
+    "readMore": "Read more"
+  },
+  "common": {
+    "durations": {
+      "days": {
+        "singular": "day",
+        "plural": "days"
+      },
+      "weeks": {
+        "singular": "week",
+        "plural": "weeks"
+      },
+      "months": {
+        "singular": "month",
+        "plural": "months"
+      },
+      "years": {
+        "singular": "year",
+        "plural": "years"
+      }
+    },
+    "languages": {
+      "english": "English",
+      "french": "French",
+      "german": "German"
+    },
+    "languageCapability": {
+      "native": "Native language",
+      "pro": "Fluent",
+      "basic": "Basics"
+    }
+  },
+  "contact": {
+    "claim": "I strongly believe in that approach. I'm looking forward to exchange thoughts about your business challenges, technology, digital strategy, design, app ideas.",
+    "commutingArea": "Where I work",
+    "commutingAreaDescription": "I offer my web consulting and full stack development services in the Stuttgart/Karlsruhe/Heilbronn area or remote.",
+    "dropLine": "Or drop me a line at:",
+    "heading": "Get in touch",
+    "link": "contact",
+    "title": "Get in touch with Matthias Max Web Technologies Expert",
+    "welcomeOffice": "You're welcome to have a coffee with me at my office!"
+  },
+  "cv": {
+    "cv": "Professional career",
+    "dataSource": "Results based on data of my CV in JSON format",
+    "downloadCV": "Download CV",
+    "education": "Education",
+    "experience": "Project experience",
+    "heading": "Web technology consultant and full stack developer",
+    "languages": "Languages",
+    "title": "CV of Matthias Max - Web technology consultant and full stack developer",
+    "degree": "Graduated with a Diploma in Business-IT (FH)",
+    "impact": "My impact sweet spot",
+    "impactAreas": {
+      "technology1": "Technology",
+      "technology2": "Development",
+      "business1": "Industry",
+      "business2": "Expert Knowledge",
+      "design1": "Concepts",
+      "design2": "Design",
+      "product1": "Digital",
+      "product2": "Product"
+    }
+  },
+  "deliverable": {
+    "singular": "Deliverable",
+    "plural": "Deliverables"
+  },
+  "deliverables": {
+    "all": "All (No filter)",
+    "content": "Content",
+    "desktop": "Desktop",
+    "library": "Library",
+    "masterRecording": "Audio master file",
+    "app": "Mobile App",
+    "pwa": "Progressive Web App (PWA)",
+    "spa": "Single Page Application (SPA)",
+    "website": "Website"
+  },
+  "global": {
+    "dsgvo": "I use cookies and Google Analytics to improve your experience. By your continued use of this site you accept such use. To change your settings please see our policy.",
+    "dsgvoOk": "Ok",
+    "mobile": "Mobile",
+    "phone": "Phone",
+    "sayHello": "Say Hello"
+  },
+  "industry": {
+    "singular": "Industry",
+    "plural": "Industries"
+  },
+  "industries": {
+    "all": "All (No filter)"
+  },
+  "landingPage": {
+    "blog": "Check out my blog where I share insights from my daily live in the digital world.",
+    "brands": "Some brands I've worked with directly or as sub contrator",
+    "cta": "Start a conversation",
+    "explore": "Explore my projects and skills in the",
+    "greeting": "Hi 👋 I'm Matt!",
+    "interactiveCV": "interactive CV",
+    "intro": "I help companies utilize web technologies to their advantage to create software with business value.",
+    "intro2": "I believe in interdisciplinary collaboration as the only way to achieve superior results. I've seen it happen many times both as IT-Consultant and professional songwriter."
+  },
+  "task": {
+    "singular": "Task",
+    "plural": "Tasks"
+  },
+  "tasks": {
+    "apidesign": "API Design",
+    "appStore": "App store administration",
+    "cloudhosting": "Hosting (Cloud, OnPremise)",
+    "coaching": "Coaching",
+    "coding": "Development",
+    "composing": "Composing",
+    "customerservice": "Customer service",
+    "database": "Database developement",
+    "datamodelling": "Data nmodeling",
+    "design": "Design",
+    "designSystem": "Design System",
+    "documentation": "Documentation",
+    "frontend": "Frontend",
+    "itarchitecure": "IT Architecture",
+    "musicProduction": "Music production",
+    "prototyping": "Prototyping",
+    "requirements": "Requirements",
+    "rollout": "Rollout/Deploy",
+    "seo": "SEO",
+    "sounddesign": "Sound Design",
+    "ux": "UI/UX",
+    "visualization": "Visualization",
+    "writing": "Author",
+    "devOps": "DevOps",
+    "unitTest": "Unit Tests",
+    "qa": "Quality assurance"
+  }
+}

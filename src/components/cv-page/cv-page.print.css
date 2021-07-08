@@ -1,0 +1,142 @@
+@page {
+  size: 21cm 29.7cm;
+  margin: 0 !important;
+  /* Works only when the margin on the print settings of Chrome are on "default" ! */
+  margin-bottom: 0.75cm !important;
+  padding: 0;
+}
+
+@media print {
+  cv-page .page {
+    flex-wrap: unset !important;
+  }
+
+  /* Needed for manual adjustion during PDF printing */
+  .page-break {
+    position: relative;
+    break-before: page;
+    display: block;
+  }
+
+  .ui-container {
+    width: 100% !important;
+    padding-left: 2cm;
+    padding-right: 2cm;
+  }
+  body {
+    /* This fixed the `break-inside` not working */
+    max-height: 100%;
+  }
+
+  header,
+  .cv-page__footer {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    left: 0;
+    padding: 0;
+  }
+
+  header {
+    top: 1cm;
+  }
+  .cv-page__footer {
+    bottom: 0;
+    background: none;
+  }
+
+  cv-page .left {
+    padding-right: 1.5cm !important;
+    max-width: unset !important;
+  }
+
+  cv-page .right {
+    width: 5.1cm;
+  }
+
+  .bla {
+    width: 100%;
+    padding: 0 2cm;
+    display: flex;
+    align-items: center;
+  }
+
+  .cv-page__kopfzeiletitle {
+    flex-grow: 1;
+    text-align: right;
+  }
+
+  .cv-page__first-heading {
+    margin-top: 1.7cm;
+  }
+
+  cv-page time-line {
+    --base-padding: 4px !important;
+    --label-width: 72px !important;
+    --line-correction: 5px;
+    padding-bottom: 0 !important;
+  }
+
+  cv-page .time-line__container {
+    left: -10px;
+    width: calc(100% + 10px);
+  }
+
+  h1:not(.no-print-font) {
+    font-size: 14px !important;
+    line-height: 17px !important;
+    margin-bottom: 6px;
+  }
+
+  h2:not(.no-print-font) {
+    font-size: 13px !important;
+    margin-bottom: 6px;
+  }
+
+  h3:not(.no-print-font) {
+    font-size: 10px !important;
+    color: var(--color-gandalf);
+    margin-top: 6px;
+  }
+
+  p:not(.no-print-font),
+  span:not(.no-print-font),
+  div:not(.no-print-font),
+  ul:not(.no-print-font),
+  li:not(.no-print-font) {
+    font-size: 10px !important;
+  }
+
+  .new-page {
+    page-break-before: always;
+  }
+
+  site-header,
+  footer {
+    display: none;
+  }
+
+  .contact-details {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .contact-details .col:last-child {
+    text-align: right;
+  }
+
+  .education {
+    max-width: 8cm !important;
+    margin-top: 1cm;
+  }
+
+  .scope {
+    bottom: 0 !important;
+  }
+  .scope svg {
+    width: 8cm !important;
+  }
+}

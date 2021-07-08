@@ -1,0 +1,30 @@
+dsgvo-notice {
+  display: flex;
+  position: fixed;
+  bottom: 30px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+dsgvo-notice .notice {
+  max-width: 640px;
+  z-index: 10;
+  margin: 0 30px;
+}
+
+dsgvo-notice button {
+  float: right;
+}
+
+dsgvo-notice .backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--color-woodsmoke);
+  opacity: 0.18;
+  z-index: 9;
+}

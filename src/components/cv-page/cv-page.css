@@ -1,0 +1,195 @@
+@import url('./cv-page.print.css');
+
+cv-page project-list {
+  margin-top: 0;
+  /* margin-top: 60px; */
+  /* margin-bottom: 90px; */
+  display: block;
+}
+
+cv-page .filter-btn {
+  margin-right: 3px;
+  margin-bottom: 3px;
+}
+
+cv-page project-deliverables-filter .btn--white {
+  color: var(--color-woodsmoke);
+}
+
+cv-page .page {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+cv-page .right {
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+cv-page .left {
+  flex-grow: 1;
+  padding-right: 60px;
+  max-width: 50%;
+}
+
+cv-page .profile {
+  padding-top: 10px;
+}
+
+cv-page time-line {
+  --base-padding: 10px;
+  --label-width: 102px;
+  --color: var(--color-dodger-blue);
+  --color-tint: var(--color-dodger-blue-tint);
+  color: var(--color-gunpowder);
+  font-size: 15px;
+  padding-bottom: 30px;
+}
+
+cv-page .cv-page__profileimg {
+  width: 100%;
+}
+
+.professional-kpis {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+.professional-kpis kpi-value {
+  margin-right: 5px;
+  margin-bottom: 25px;
+  background-color: var(--color-white-lilac);
+  border-radius: 20px;
+  padding: 10px;
+  text-align: center;
+}
+.professional-kpis kpi-value .label {
+  margin-top: 0;
+}
+.professional-kpis kpi-value .kpi {
+  margin-bottom: 0;
+}
+
+.mindset {
+  margin-top: 10px;
+  text-align: center;
+}
+.mindset ul {
+  list-style: none;
+}
+
+.scope {
+  position: absolute;
+  bottom: -10px;
+  left: calc(50% + 50px);
+}
+.scope svg {
+  width: 550px;
+}
+
+.education {
+  max-width: 440px;
+}
+
+.download-button {
+  position: absolute;
+  top: -90px;
+  right: 0;
+  font-size: 12px;
+}
+
+@media screen and (min-width: 1024px) {
+  cv-page .filters {
+    position: sticky;
+    top: 20px;
+    background: var(--color-white);
+    z-index: 1;
+    box-shadow: 0 0 0px 20px white;
+  }
+  cv-page time-line {
+    padding-bottom: 90px;
+  }
+  .scope {
+    bottom: -40px;
+  }
+  .languages {
+    padding-bottom: 130px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .scope {
+    left: 50%;
+    bottom: 210px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  cv-page .page {
+    flex-direction: column;
+  }
+
+  cv-page .left {
+    padding-right: 0;
+    order: 1;
+    max-width: 100%;
+  }
+
+  cv-page .right {
+    width: 100% !important;
+    order: 0;
+  }
+
+  cv-page .profile {
+    padding-top: 0;
+  }
+
+  main {
+    padding-top: 0;
+  }
+
+  .scope {
+    position: relative;
+    bottom: unset !important;
+    left: unset;
+    width: 100%;
+  }
+  .scope svg {
+    width: 100% !important;
+  }
+}
+
+@media screen {
+  cv-page .right {
+    width: 50%;
+  }
+  .hide-screen {
+    display: none;
+  }
+
+  cv-page .time-line__container {
+    left: -120px;
+    width: calc(100% + 120px);
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  cv-page .time-line__container {
+    left: calc(var(--base-padding) * -1);
+    width: calc(100% + var(--base-padding));
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .scope {
+    bottom: 50px;
+  }
+  .scope svg {
+    width: 450px;
+  }
+  cv-page time-line {
+    padding-bottom: 90px;
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Matthias Max Web Technologies Expert and Fullstack Developer",
+  "short_name": "Matthias Max",
+  "start_url": "/",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "assets/img/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "background_color": "#7510F7",
+  "theme_color": "#7510F7"
+}
