@@ -76,15 +76,9 @@ landing-page .hero stencil-route-link + stencil-route-link {
   margin-left: 10px;
 }
 
-/* landing-page .hero .landing-page__bg {
-  position: absolute;
-  z-index: 1;
-  top: 50%;
-  right: 0;
-  transform: translate(-64px, -41%);
-  margin-top: 20px;
-  height: 673px;
-} */
+landing-page .hero .landing-page__bg {
+    max-width: 600px;
+}
 
 @media screen and (max-width: 1024px) {
   landing-page .hero {
