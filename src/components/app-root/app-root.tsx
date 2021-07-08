@@ -130,7 +130,7 @@ export class AppRoot {
             </footer> */}
           </main>
         </site-root>
-        <dsgvo-notice class="hide-print" />
+        {/* <dsgvo-notice class="hide-print" /> */}
       </SiteProviderConsumer.Provider>
     );
   }
