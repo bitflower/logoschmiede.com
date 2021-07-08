@@ -160,6 +160,17 @@ landing-page .about  {
   margin-top: 120px;
 }
 
+landing-page .impressum   {
+  margin-bottom: 120px;
+}
+
+landing-page .impressum .columns  {
+  display: flex;
+}
+landing-page .impressum .columns .col {
+  width: 50%;
+}
+
 landing-page .referenzen  {
   margin-bottom: 120px;
 }

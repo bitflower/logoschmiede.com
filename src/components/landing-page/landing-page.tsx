@@ -49,6 +49,27 @@ export class LandingPage {
           </ResponsiveContainer>
         </div>
 
+        <div class="impressum">
+          <ResponsiveContainer>
+
+            <h1>Wer wir sind</h1>
+            <div class="columns">
+              <div class="col">
+                <p>Die Logoschmiede</p>
+                <p>Mirko Kranitzer
+                  <br />Alexanderweg 9
+                  <br />74372 Sersheim
+                  <br />
+                  <br />Mobil: +49 172 879 555 2
+                  <br />Email: <a href="mailto:info@logoschmiede.com">info@logoschmiede.com</a>
+                  </p>
+                </div>
+              <div class="col">Rechts</div>
+            </div>
+                        
+          </ResponsiveContainer>
+        </div>
+
       </div>
     );
   }

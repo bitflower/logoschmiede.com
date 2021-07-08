@@ -66,10 +66,10 @@ ul a,
 ol a,
 td a {
   transition: border 0.3s;
-  color: var(--color-dodger-blue);
+  color: var(--color-dolphin);
   text-decoration: none;
   border-bottom: 1px solid transparent;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 p a:hover,
@@ -90,4 +90,16 @@ blockquote p {
   color: var(--color-pirate-gold);
   line-height: 1.6;
   font-size: 14px;
+}
+
+a {
+  color: var(--color-dolphin)
+}
+
+a:active {
+  color: var(--color-dolphin)
+}
+
+a:visited {
+  color: var(--color-dolphin)
 }
