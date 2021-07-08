@@ -151,6 +151,10 @@ landing-page .masonry-container {
   }
 }
 
+landing-page .about p {
+  margin-bottom: 30px;
+}
+
 landing-page .companies {
   position: relative;
   padding-bottom: 180px;
@@ -329,7 +333,7 @@ landing-page p,
 landing-page ul {
   margin: 0;
   color: var(--color-dolphin);
-  font-size: 17px;
+  /* font-size: 17px; */
   line-height: 1.7;
 }
 

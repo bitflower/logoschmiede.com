@@ -1,11 +1,11 @@
 import '@stencil/router';
-import { ResponsiveContainer } from '@ionic-internal/ionic-ds';
+// import { ResponsiveContainer } from '@ionic-internal/ionic-ds';
 import { LocationSegments, RouterHistory } from '@stencil/router';
 import { Component, Element, Listen, State, h } from '@stencil/core';
 
 import SiteProviderConsumer, { SiteState } from '../../global/site-provider-consumer';
 
-import i18n from '../../stores/i18n.store';
+// import i18n from '../../stores/i18n.store';
 
 @Component({
   tag: 'app-root',
