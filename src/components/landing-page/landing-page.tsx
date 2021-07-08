@@ -27,12 +27,15 @@ export class LandingPage {
           </hgroup> */}
           <img class="landing-page__bg" src="./assets/img/logo_small.png" loading="lazy" alt="Logo der Logoschmiede" />
         </ResponsiveContainer>
-{/* 
-        <div class="companies">
+
+        <div class="referenzen">
           <ResponsiveContainer>
-                       
+            <div class="masonry-container">
+            {Array.from(new Array(16)).map((_bla, index) => <figure><img src={`assets/img/referenzen/referenz${index < 9 ? `0${index + 1}` : index + 1}.jpg`} /></figure>)}
+            </div>
+                        
           </ResponsiveContainer>
-        </div> */}
+        </div>
 
 
       </div>
