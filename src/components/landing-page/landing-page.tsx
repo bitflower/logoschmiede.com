@@ -41,6 +41,7 @@ export class LandingPage {
 
         <div class="referenzen">
           <ResponsiveContainer>
+            <h1>Was wir so alles machen</h1>
             <div class="masonry-container">
             {Array.from(new Array(16)).map((_bla, index) => <figure><img src={`assets/img/referenzen/referenz${index < 9 ? `0${index + 1}` : index + 1}.jpg`} /></figure>)}
             </div>

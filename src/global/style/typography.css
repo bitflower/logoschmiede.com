@@ -51,7 +51,7 @@ p,
 ul,
 ol {
   color: var(--color-gunpowder);
-  font-size: 15px;
+  /* font-size: 15px; */
   line-height: 1.7;
   margin: 14px 0px;
 }
