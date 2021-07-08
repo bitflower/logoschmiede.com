@@ -4,14 +4,9 @@
 @import './buttons.css';
 @import './headline.css';
 @import './link.css';
-@import './lists.css';
-@import './measure.css';
-@import './screenshot.css';
 @import './code.css';
-@import './table.css';
 @import './typography.css';
 @import './utils.css';
-@import './print-utils.css';
 @import './card.css';
 
 * {
