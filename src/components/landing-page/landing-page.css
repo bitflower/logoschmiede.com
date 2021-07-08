@@ -78,6 +78,7 @@ landing-page .hero stencil-route-link + stencil-route-link {
 
 landing-page .hero .landing-page__bg {
     max-width: 600px;
+    margin: 0 auto;
 }
 
 landing-page img {
@@ -121,14 +122,10 @@ landing-page .masonry-container {
     margin-bottom: 0;
   }
 
-  /* landing-page .hero .landing-page__bg {
-    position: relative;
-    height: 450px;
-    left: 60%;
-    transform: translate(-25%, -10%);
-    margin-top: 0;
-    top: -70px;
-  } */
+  landing-page .masonry-container {
+    column-count: 3;
+  }
+
   landing-page .hero .landing-page__bg {
     height: auto;
     width: 90%;
@@ -507,6 +504,11 @@ landing-page .video-thumbnail:hover svg circle {
 }
 
 @media screen and (max-width: 768px) {
+
+  landing-page .masonry-container {
+    column-count: 2;
+  }
+
   landing-page .hero {
     text-align: center;
     margin-top: 64px;
@@ -554,6 +556,14 @@ landing-page .video-thumbnail:hover svg circle {
   landing-page .two-col {
     flex-direction: column;
   }
+}
+
+@media screen and (max-width: 500px) {
+
+  landing-page .masonry-container {
+    column-count: 1;
+  }
+
 }
 
 @media screen and (max-width: 375px) {
