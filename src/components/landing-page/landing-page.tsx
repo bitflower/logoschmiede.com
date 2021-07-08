@@ -64,7 +64,9 @@ export class LandingPage {
                   <br />Email: <a href="mailto:info@logoschmiede.com">info@logoschmiede.com</a>
                   </p>
                 </div>
-              <div class="col">Rechts</div>
+              <div class="col">
+                <img class="landing-page__avatar" src="./assets/img/avatar.jpg" loading="lazy" alt="Mirko Kranitzer" />
+                </div>
             </div>
                         
           </ResponsiveContainer>

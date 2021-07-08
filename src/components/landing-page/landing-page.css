@@ -81,6 +81,12 @@ landing-page .hero .landing-page__bg {
     margin: 0 auto;
 }
 
+landing-page  .landing-page__avatar {
+  max-height: 320px;
+  border-radius: 50%;
+  transform: translateY(-80px);
+}
+
 landing-page img {
   max-width: 100%;
   display: block;
