@@ -35,6 +35,12 @@ stencil-site {
   }
 }
 
+site-root {
+  background-image: url('assets/img/bg.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 main {
   display: flex;
   flex-direction: column;

@@ -9,6 +9,7 @@ landing-page .hero {
   position: relative;
   margin-top: 0px;
   margin-bottom: 220px;
+  text-align: center;
 }
 
 landing-page .hero hgroup {
@@ -75,7 +76,7 @@ landing-page .hero stencil-route-link + stencil-route-link {
   margin-left: 10px;
 }
 
-landing-page .hero .landing-page__bg {
+/* landing-page .hero .landing-page__bg {
   position: absolute;
   z-index: 1;
   top: 50%;
@@ -83,32 +84,40 @@ landing-page .hero .landing-page__bg {
   transform: translate(-64px, -41%);
   margin-top: 20px;
   height: 673px;
-}
+} */
 
 @media screen and (max-width: 1024px) {
   landing-page .hero {
     margin-bottom: 0;
   }
 
-  landing-page .hero .landing-page__bg {
+  /* landing-page .hero .landing-page__bg {
     position: relative;
     height: 450px;
     left: 60%;
     transform: translate(-25%, -10%);
     margin-top: 0;
     top: -70px;
+  } */
+  landing-page .hero .landing-page__bg {
+    height: auto;
+    width: 90%;
+    transform: none;
+    left: auto;
+    /* margin-top: 120px; */
+    top: 0;
   }
 }
 
 @media screen and (max-width: 768px) {
-  landing-page .hero .landing-page__bg {
+  /* landing-page .hero .landing-page__bg {
     height: auto;
     width: 90%;
     transform: none;
     left: auto;
     margin-top: 120px;
     top: 0;
-  }
+  } */
 
   landing-page .hero hgroup p {
     max-width: 100%;

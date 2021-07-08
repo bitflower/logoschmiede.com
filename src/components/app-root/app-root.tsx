@@ -86,22 +86,22 @@ export class AppRoot {
     return (
       <SiteProviderConsumer.Provider state={siteState}>
         <site-root>
-          <site-header />
+          {/* <site-header /> */}
           <main>
             <stencil-router scrollTopOffset={0}>
               <stencil-route style={{ display: 'none' }} routeRender={this.setHistory} />
               <stencil-route-switch>
                 <stencil-route url="/" component="landing-page" exact={true} />
 
-                <stencil-route url="/blog" component="blog-page" exact={true} />
+                {/* <stencil-route url="/blog" component="blog-page" exact={true} />
                 <stencil-route url="/blog/:pageName" routeRender={({ match }) => <blog-component page={match!.url}></blog-component>} />
 
                 <stencil-route url="/cv" component="cv-page" />
-                <stencil-route url={`/${i18n.contact.link}`} component="contact-page" />
+                <stencil-route url={`/${i18n.contact.link}`} component="contact-page" /> */}
                 <stencil-route component="notfound-page"></stencil-route>
               </stencil-route-switch>
             </stencil-router>
-            <footer>
+            {/* <footer>
               <ResponsiveContainer>
                 <div class="footer-col">
                   <stencil-route-link url="/" anchorTitle="Matthias Max Web Technologies Expert logo">
@@ -127,7 +127,7 @@ export class AppRoot {
                   </ul>
                 </div>
               </ResponsiveContainer>
-            </footer>
+            </footer> */}
           </main>
         </site-root>
         <dsgvo-notice class="hide-print" />
